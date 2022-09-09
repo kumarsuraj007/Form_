@@ -1,0 +1,78 @@
+.container-1{
+    margin-left: 550px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 50vh;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 5px rgb(168, 168, 168);
+    background: white;
+    position: relative;
+}
+
+
+.btn-1{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(102, 102, 207);
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    transition: 0.4s;
+}
+
+.btn-2{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(102, 102, 207);
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    transition: 0.4s;
+}
+
+
+.container label{
+    padding-bottom: 0px;
+}
+
+.btn-1:hover{
+    background-color: purple;
+}
+
+.btn-2:hover{
+    background-color: purple;
+}
+
+input{
+    height: 25px;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+input::placeholder{
+    padding-left: 5px;
+    
+}
+
+.heading{
+    padding-bottom: 20px;
+    text-align: center;
+}

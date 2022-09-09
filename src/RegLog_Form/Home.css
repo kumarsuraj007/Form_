@@ -1,0 +1,32 @@
+.container-2{
+    margin-left: 550px;
+    margin-bottom: 100px;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 30vh;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 5px rgb(168, 168, 168);
+    background: white;
+    position: relative;
+}
+
+.nav-link{
+    width: 50%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link li{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+
+}
